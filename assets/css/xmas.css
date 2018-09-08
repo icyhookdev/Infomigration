@@ -1,0 +1,100 @@
+.body, html{
+    height: 100%;
+    margin:0;
+    font-size:16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+}
+
+.fa-gift{
+    font-size:40px;
+}
+
+.fa-pagelines{
+    font-size:50px;
+}
+
+.fa-github{
+    font-size:60px;
+    color:white;
+}
+
+.fa-twitter{
+    font-size:60px;
+    color:white;
+}
+
+/* .bg-face{ */
+    /* background-image: background-image: linear-gradient(to right bottom, rgb(111, 213, 191), rgb(40, 147, 180)); */
+
+
+.xmas1, .xmas2, .xmas3, .xmas4{
+    position: relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.xmas1{
+    background-image:linear-gradient(to right bottom, rgba(111, 213, 191, 0.8), rgba(40, 147, 180, 0.8)), url('../img/p2.jpeg');
+    min-height: 500px;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+
+.xmas2{
+    background-image:url('../img/p2.jpeg');
+    min-height: 400px;
+}
+.xmas3{
+    background-image:url('../img/p2.jpeg');
+    min-height: 400px;
+}
+.xmas4{
+    background-image:url('../img/p3.jpeg');
+    min-height: 400px;
+}
+.section{
+    text-align: center;
+    padding:50px 80px;
+}
+
+.section-light{
+    background:#f4f4f4;
+    color:#666;
+
+}
+
+.section-dark{
+    background:#282e34;
+    color:#ddd;
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #fff;
+    color:#000;
+    padding:20px;
+}
+
+@media(max-width:568px){
+    .xmas1, .xmas2, .xmas3{
+        background-attachment: scroll;
+    }
+}
+
+.ft{
+    color:white;
+}
